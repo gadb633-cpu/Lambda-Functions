@@ -65,3 +65,11 @@ numbers = [5, 2, 9, 1, 7]
 numbers.sort()
 print(numbers)
 
+# B. Sort tuples by second value
+students = [
+    ("Dana", 85),
+    ("Eli", 92),
+    ("Noa", 78)]
+students.sort(key=lambda student:student[1])
+print(students)
+
