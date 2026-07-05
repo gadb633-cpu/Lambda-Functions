@@ -17,3 +17,11 @@ print(full_name("dana","levi"))
 grade_status = lambda grade: "pass" if grade >=55 else "fail"
 print(grade_status(80))
 print(grade_status(40))
+
+# 5. Larger number
+larger = lambda num1,num2: num1 if num1 >= num2 else num2
+print(larger(10,7))
+print(larger(5,9))
+print(larger(4,4))
+
+# 
