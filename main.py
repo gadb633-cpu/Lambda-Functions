@@ -59,4 +59,9 @@ print(ticket_price(10, False))
 print(ticket_price(20, True))    
 print(ticket_price(20, False))    
 
+# Self-Learn Section — Lambda with Sort
+# A. Sort numbers normally
+numbers = [5, 2, 9, 1, 7]
+numbers.sort()
+print(numbers)
 
