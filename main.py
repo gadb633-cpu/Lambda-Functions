@@ -24,4 +24,7 @@ print(larger(10,7))
 print(larger(5,9))
 print(larger(4,4))
 
-# 
+# 6. Distance from 10
+distance_from_10 = lambda num: num - 10 if num > 10 else 10-num
+print(distance_from_10(6))
+print(distance_from_10(100))
