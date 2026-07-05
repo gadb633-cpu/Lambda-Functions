@@ -28,3 +28,7 @@ print(larger(4,4))
 distance_from_10 = lambda num: num - 10 if num > 10 else 10-num
 print(distance_from_10(6))
 print(distance_from_10(100))
+
+# 7. Get item total
+item_total= lambda item: item["price"]*item["amount"]
+print(item_total({"name": "Pen", "price": 5, "amount": 10}))
