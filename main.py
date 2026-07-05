@@ -46,3 +46,17 @@ print(access_message(25,True,False))
 print(access_message(25,False,False)) 
 print(access_message(15,True,False)) 
 print(access_message(15,False,True)) 
+
+# 10. Turn a complex lambda into a regular function
+def ticket_price(age,is_student):
+    if age <12:
+        return 20
+    elif is_student:
+        return 30
+    else:
+        return 50
+print(ticket_price(10, False))
+print(ticket_price(20, True))    
+print(ticket_price(20, False))    
+
+
