@@ -73,3 +73,11 @@ students = [
 students.sort(key=lambda student:student[1])
 print(students)
 
+# C. Sort dictionaries by one field
+students = [
+    {"name": "Dana", "grade": 85},
+    {"name": "Eli", "grade": 92},
+    {"name": "Noa", "grade": 78}]
+students.sort(key=lambda student:student["grade"])
+print(students)
+
