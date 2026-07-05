@@ -81,3 +81,11 @@ students = [
 students.sort(key=lambda student:student["grade"])
 print(students)
 
+# D. Sort dictionaries by calculated value
+products = [
+    {"name": "Pen", "price": 5, "amount": 10},
+    {"name": "Book", "price": 40, "amount": 2},
+    {"name": "Bag", "price": 80, "amount": 1}]
+products.sort(key=lambda product:product["price"]*product["amount"])
+print(products)
+
